@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="web:war">
+    <output-path>$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web_war</output-path>
+    <root id="archive" name="web_war.war">
+      <element id="artifact" artifact-name="web:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

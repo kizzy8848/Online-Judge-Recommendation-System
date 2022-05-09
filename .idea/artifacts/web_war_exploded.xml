@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="hnuOnlineJudge/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="hnuOnlineJudge" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" />
+          <element id="library" level="project" name="commons-lang3-3.12.0" />
+          <element id="library" level="project" name="httpcore-4.4.15" />
+          <element id="library" level="project" name="httpclient-4.5.13" />
+          <element id="library" level="project" name="ant-commons-logging" />
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="gson-2.8.7" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.26" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

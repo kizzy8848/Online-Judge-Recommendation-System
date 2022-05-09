@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ant-commons-logging">
+    <CLASSES>
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/ant/lib/ant-commons-logging.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

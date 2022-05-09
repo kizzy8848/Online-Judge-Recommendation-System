@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee     http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <context-param>
+        <param-name>encode</param-name>
+        <param-value>UTF-8</param-value>
+    </context-param>
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>Servlet.Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>Servlet.Register</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Register</servlet-name>
+        <url-pattern>/Register</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AcceptProblemsServlet</servlet-name>
+        <servlet-class>Servlet.AcceptProblemsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AcceptProblemsServlet</servlet-name>
+        <url-pattern>/accept</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>problemServlet</servlet-name>
+        <servlet-class>Servlet.problemServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>problemServlet</servlet-name>
+        <url-pattern>/problem</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>JudgeServlet</servlet-name>
+        <servlet-class>Servlet.JudgeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>JudgeServlet</servlet-name>
+        <url-pattern>/judge</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RecommendBasedUser</servlet-name>
+        <servlet-class>Servlet.RecommendBasedUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RecommendBasedUser</servlet-name>
+        <url-pattern>/RecommendBasedUser</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RecommendBasedProblem</servlet-name>
+        <servlet-class>Servlet.RecommendBasedProblem</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RecommendBasedProblem</servlet-name>
+        <url-pattern>/RecommendBasedProblem</url-pattern>
+    </servlet-mapping>
+</web-app>

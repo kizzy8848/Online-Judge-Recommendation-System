@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="OnlineJudge">
+    <output-path>$PROJECT_DIR$/web/WEB-INF/classes/artifacts/OnlineJudge</output-path>
+    <root id="archive" name="web_war.war">
+      <element id="artifact" artifact-name="web:war exploded" />
+    </root>
+  </artifact>
+</component>
